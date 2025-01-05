@@ -3,8 +3,6 @@ const currencySelect = document.querySelector(".currency-select")
 
 function convertValues(){
 
-    console.log(currencySelect.value)
-
     const inputCurrencyValue = document.querySelector(".input-Values").value
 
     const currentyValueToConvert = document.querySelector(".currency-value-to-convert")
